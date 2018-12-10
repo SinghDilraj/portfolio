@@ -45,7 +45,7 @@ img{
 #first-image{
     width: 80%;
     height:300px;
-    background-image: url("/../first-image.jpg");
+    background-image: url("./../first-image.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     margin-top: 2%;
@@ -54,13 +54,13 @@ img{
 }
 #first-image:hover{
     cursor: zoom-in;
-    background-image: url("/../6.png");
+    background-image: url("./../6.png");
     background-size: contain;
     background-position-x: 50%;
     height:300px;
 }
 #first-image:active{
-    background-image: url("/../1.png");
+    background-image: url("./../1.png");
     background-size: cover;
 }
 #bottom-head{
@@ -120,7 +120,7 @@ a:visited{
         height: 200px;
     }
     #first-image:hover{
-        background-image: url("/../first-image.jpg");
+        background-image: url("./../first-image.jpg");
         background-size: cover;
     }
     #first-image{
@@ -161,7 +161,7 @@ a:visited{
         height: 150px;
     }
     #first-image:hover{
-        background-image: url("/../first-image.jpg");
+        background-image: url("./../first-image.jpg");
         background-size: cover;
     }
     #first-image{
@@ -202,7 +202,7 @@ a:visited{
         height: 100px;
     }
     #first-image:hover{
-        background-image: url("/../first-image.jpg");
+        background-image: url("./../first-image.jpg");
         background-size: cover;
     }
     #first-image{
@@ -243,7 +243,7 @@ a:visited{
         height: 50px;
     }
     #first-image:hover{
-        background-image: url("/../first-image.jpg");
+        background-image: url("./../first-image.jpg");
         background-size: cover;
     }
     #first-image{
@@ -284,7 +284,7 @@ a:visited{
         height: 45px;
     }
     #first-image:hover{
-        background-image: url("/../first-image.jpg");
+        background-image: url("./../first-image.jpg");
         background-size: cover;
     }
     #first-image{
