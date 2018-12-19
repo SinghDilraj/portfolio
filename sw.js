@@ -6,18 +6,18 @@ self.addEventListener('install', event => {
       .then(cache => {
         return cache.addAll(
           [
-            '/',
-            '/index.html',
-            '/app.js',
-            '/dest/portfolio.css',
-            '/1.png',
-            '/6.png',
-            '/facebook.jpg',
-            '/first-image.jpg',
-            '/gmail.png',
-            '/instagram.png',
-            '/linkedin.png',
-            '/udacity-logo.png'
+            './',
+            './index.html',
+            './app.js',
+            './dest/portfolio.css',
+            './1.png',
+            './6.png',
+            './facebook.jpg',
+            './first-image.jpg',
+            './gmail.png',
+            './instagram.png',
+            './linkedin.png',
+            './udacity-logo.png'
           ]
         )
       })
