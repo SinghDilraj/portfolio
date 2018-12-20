@@ -1,4 +1,4 @@
-const staticCache = 'my-cache-1'
+const staticCache = 'my-cache'
 
 self.addEventListener('install', event => {
   event.waitUntil(
@@ -17,7 +17,8 @@ self.addEventListener('install', event => {
             './gmail.png',
             './instagram.png',
             './linkedin.png',
-            './udacity-logo.png'
+            './udacity-logo.png',
+            './manifest.json'
           ]
         )
       })
